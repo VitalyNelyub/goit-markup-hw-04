@@ -162,16 +162,14 @@ button {
 .hero {
   background-color: var(--bg-footer-color);
   padding: 200px 0;
-  background-image: linear-gradient(
-    rgba(47, 48, 58, 0.4), 
-    rgba(47, 48, 58, 0.4)),
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../imeges/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* max-width: 1600px;
+  max-width: 1600px;
   margin-left: auto;
-  margin-right: auto; */
+  margin-right: auto;
 }
 
 .hero-head {
@@ -308,17 +306,11 @@ button {
   margin-bottom: 16px;
 }
 
-
-
-
-
-
 /* Иконки соцсетей */
 .team-soc-list {
   display: flex;
   justify-content: center;
   gap: 10px;
-
 }
 
 .team-soc-link {
@@ -326,19 +318,42 @@ button {
   height: 44px;
   border-radius: 50%;
   background-color: var(--accent-color);
-  display: flex;  
+  display: flex;
   color: #ffffff;
 }
 
 /* Иконки соцсетей */
 
-
-
-
-
 .team-info {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+/* Наші партнери */
+
+.partners {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.partners-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.partners-list {
+  display: flex;
+  gap: 30px;
+}
+
+.partners-item {
+  border: 2px solid black;
+  width: 170px;
+  height: 92px;
 }
 
 /* Підвал */
