@@ -162,6 +162,16 @@ button {
 .hero {
   background-color: var(--bg-footer-color);
   padding: 200px 0;
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4), 
+    rgba(47, 48, 58, 0.4)),
+    url(../imeges/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto; */
 }
 
 .hero-head {
@@ -295,7 +305,36 @@ button {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  margin-bottom: 16px;
 }
+
+
+
+
+
+
+/* Иконки соцсетей */
+.team-soc-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.team-soc-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+  display: flex;  
+  color: #ffffff;
+}
+
+/* Иконки соцсетей */
+
+
+
+
 
 .team-info {
   padding-top: 30px;
@@ -333,11 +372,9 @@ button {
   display: inline-block;
 }
 
-
 .addres-list:not(:last-child) {
   margin-bottom: 9px;
 }
-
 
 .footer-adress:hover,
 .footer-adress:focus {
@@ -381,7 +418,6 @@ button {
   cursor: pointer;
   letter-spacing: 0.03em;
   padding: 6px 22px;
-
 }
 
 .filter-btn:hover,
