@@ -319,12 +319,10 @@ button {
   border-radius: 50%;
   background-color: transparent;
   display: flex;
-  color: #ffffff;
-  display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--primaci-bg-color);
-}
+  color: #AFB1B8;
+ }
 
 .team-soc-ikon {
  fill: currentColor;
