@@ -317,11 +317,24 @@ button {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: var(--accent-color);
+  background-color: transparent;
   display: flex;
   color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primaci-bg-color);
 }
 
+.team-soc-ikon {
+ fill: currentColor;
+}
+
+.team-soc-link:hover,
+.team-soc-link:focus {
+  background-color: var(--accent-color);
+  color: var(--primaci-bg-color);
+}
 /* Иконки соцсетей */
 
 .team-info {
