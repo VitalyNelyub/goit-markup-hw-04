@@ -36,3 +36,11 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+
+<!-- <li class="item">
+            <a class="contact-link" href="mailto:info@devstudio.com"
+              ><svg class="icon">
+                <use href="./imeges/symbol-defs.svg#icon-mail" width="16" height="12"></use></svg
+              >info@devstudio.com</a>
+          </li> -->

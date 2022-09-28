@@ -142,6 +142,15 @@ button {
   gap: 50px;
 }
 
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.contact-link {
+  display: flex;
+}
+
 .head-contacts .contact-link {
   color: var(--primary-text-color);
   font-weight: 500;
