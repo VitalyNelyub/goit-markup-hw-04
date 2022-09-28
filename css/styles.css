@@ -157,6 +157,16 @@ button {
   color: var(--accent-color);
 }
 
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.item-icon {
+  fill: currentColor;
+}
+
 /* Герой */
 
 .hero {
@@ -491,8 +501,16 @@ button {
   color: var(--primaci-bg-color);
 }
 
+.footer {
+  display: flex;
+  align-items: center;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .footer-soc-page {
-margin-bottom: 20px;  
+  margin-bottom: 20px;
 }
 
 .footer-soc-list {
@@ -505,7 +523,7 @@ margin-bottom: 20px;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color:rgba(255, 255, 255, 0.1);;
+  background-color: rgba(255, 255, 255, 0.1);
   display: flex;
   background-position: center;
   align-items: center;
@@ -519,9 +537,8 @@ margin-bottom: 20px;
 
 .footer-soc-link:hover,
 .footer-soc-link:focus {
-  background-color: var(--accent-color)
+  background-color: var(--accent-color);
 }
-
 
 /* Портфоліо */
 
@@ -564,6 +581,13 @@ margin-bottom: 20px;
 .gallery-projects li {
   outline: 1px solid #eeeeee;
   width: calc((100% - 60px) / 3);
+}
+
+.gallery-projects li:hover {
+  box-shadow: 
+  0px 1px 1px rgba(0, 0, 0, 0.12), 
+  0px 4px 4px rgba(0, 0, 0, 0.06),
+  1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .project-text {
