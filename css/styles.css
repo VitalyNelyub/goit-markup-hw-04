@@ -142,15 +142,6 @@ button {
   gap: 50px;
 }
 
-.item {
-  display: flex;
-  align-items: center;
-}
-
-.contact-link {
-  display: flex;
-}
-
 .head-contacts .contact-link {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -165,7 +156,6 @@ button {
 .head-contacts .contact-link:focus {
   color: var(--accent-color);
 }
-
 
 /* Герой */
 
@@ -491,6 +481,47 @@ button {
 .footer-link:focus {
   color: var(--accent-color);
 }
+
+.footer-soc-page {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primaci-bg-color);
+}
+
+.footer-soc-page {
+margin-bottom: 20px;  
+}
+
+.footer-soc-list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-soc-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color:rgba(255, 255, 255, 0.1);;
+  display: flex;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  color: var(--primaci-bg-color);
+}
+
+.footer-soc-icon {
+  fill: currentColor;
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  background-color: var(--accent-color)
+}
+
 
 /* Портфоліо */
 
