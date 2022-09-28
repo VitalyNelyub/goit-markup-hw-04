@@ -157,6 +157,7 @@ button {
   color: var(--accent-color);
 }
 
+
 /* Герой */
 
 .hero {
@@ -217,6 +218,44 @@ button {
 .desc {
   display: flex;
   gap: 30px;
+}
+
+.desk-item::before {
+  display: block;
+  content: '';
+  height: 270px;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--bgc-btn);
+}
+
+.item-antenna::before {
+  background-image: url(../imeges/antenna.svg);
+  margin-bottom: 30px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.item-clock::before {
+  background-image: url(../imeges/clock.svg);
+  margin-bottom: 30px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.item-diagram::before {
+  background-image: url(../imeges/diagram.svg);
+  margin-bottom: 30px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.item-astronaut::before {
+  background-image: url(../imeges/astronaut.svg);
+  margin-bottom: 30px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .desc li {
@@ -319,13 +358,14 @@ button {
   border-radius: 50%;
   background-color: transparent;
   display: flex;
+  background-position: center;
   align-items: center;
   justify-content: center;
-  color: #AFB1B8;
- }
+  color: #afb1b8;
+}
 
 .team-soc-ikon {
- fill: currentColor;
+  fill: currentColor;
 }
 
 .team-soc-link:hover,
@@ -358,13 +398,36 @@ button {
 
 .partners-list {
   display: flex;
+  justify-content: center;
   gap: 30px;
 }
 
 .partners-item {
-  border: 2px solid black;
   width: 170px;
   height: 92px;
+}
+
+.partner-logo {
+  width: 170px;
+  height: 92px;
+  display: flex;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  color: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  padding: 16px 32px;
+}
+
+.partner-icon {
+  fill: currentColor;
+}
+
+.partner-logo:hover,
+.partner-logo:focus {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 /* Підвал */
