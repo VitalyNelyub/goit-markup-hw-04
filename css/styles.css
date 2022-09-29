@@ -446,6 +446,15 @@ button {
   padding: 60px 0;
 }
 
+.footer-contacts {
+  display: flex;
+  align-items: baseline;
+}
+
+.adress-contacts {
+  margin-right: 70px;
+}
+
 .footer-logo {
   color: var(--accent-color);
   font-family: 'Raleway';
@@ -499,14 +508,6 @@ button {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--primaci-bg-color);
-}
-
-.footer {
-  /* display: flex; */
-  align-items: center;
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .footer-soc-page {
@@ -570,6 +571,7 @@ button {
 .filter-btn:focus {
   background-color: var(--accent-color);
   color: var(--primaci-bg-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .gallery-projects {
@@ -583,7 +585,13 @@ button {
   width: calc((100% - 60px) / 3);
 }
 
-.gallery-projects li:hover {
+.gallery-link {
+  text-decoration: none;
+  color: var(--primary-text-color);
+  display: block;
+}
+
+ .gallery-link:hover {
   box-shadow: 
   0px 1px 1px rgba(0, 0, 0, 0.12), 
   0px 4px 4px rgba(0, 0, 0, 0.06),

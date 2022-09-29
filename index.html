@@ -18,7 +18,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css"/>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Шапка сайту-->
@@ -39,7 +39,7 @@
           </ul>
         </nav>
         <ul class="head-contacts list">
-          <li class="item">            
+          <li class="item">
             <a class="contact-link" href="mailto:info@devstudio.com"
               ><svg class="item-icon" width="16" height="12">
                 <use href="./imeges/symbol-defs.svg#icon-mail"></use></svg
@@ -295,6 +295,7 @@
         </div>
       </section>
       <section class="container partners">
+        <!-- Постійні клієнти -->
         <h2 class="partners-title">Постійні клієнти</h2>
         <ul class="partners-list list">
           <li class="partners-item">
@@ -342,55 +343,65 @@
     </main>
     <!--Підвал-->
     <footer class="footer">
-      <div class="container">
-        <h2 class="visually-hidden">Контактні данні</h2>
-        <a href="./index.html" class="footer-logo"
-          >Web<span class="logo-footer-style">Studio</span></a
-        >
-        <address>
-          <ul class="footer-list list">
-            <li class="addres-list">
-              <a
-                class="footer-adress"
-                href="https://goo.gl/maps/V1AfotGjKbNemnyBA"
-                target="_blank"
-                rel="noreferrer noopener"
-                >м. Київ, пр-т Лесі Українки, 26</a
-              >
+      <div class="container footer-contacts">
+        <div class="adress-contacts">
+          <h2 class="visually-hidden">Контактні данні</h2>
+          <a href="./index.html" class="footer-logo"
+            >Web<span class="logo-footer-style">Studio</span></a
+          >
+          <address>
+            <ul class="footer-list list">
+              <li class="addres-list">
+                <a
+                  class="footer-adress"
+                  href="https://goo.gl/maps/V1AfotGjKbNemnyBA"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                >
+              </li>
+              <li class="addres-list">
+                <a class="footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li class="addres-list">
+                <a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-soc-container">
+          <p class="footer-soc-page">приєднуйтесь</p>
+          <ul class="footer-soc-list list">
+            <li>
+              <a class="footer-soc-link" href="">
+                <svg class="footer-soc-icon" width="20" height="20">
+                  <use href="./imeges/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="addres-list">
-              <a class="footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <li>
+              <a class="footer-soc-link" href="">
+                <svg class="footer-soc-icon" width="20" height="20">
+                  <use href="./imeges/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li class="addres-list">
-              <a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <li>
+              <a class="footer-soc-link" href="">
+                <svg class="footer-soc-icon" width="20" height="20">
+                  <use href="./imeges/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="footer-soc-link" href="">
+                <svg class="footer-soc-icon" width="20" height="20">
+                  <use href="./imeges/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
-      </div>
-      <div class="footer-soc-container">
-        <h2 class="footer-soc-page">приєднуйтесь</h2>
-        <ul class="footer-soc-list list">
-          <li><a class="footer-soc-link" href="">
-                      <svg class="footer-soc-icon" width="20" height="20">
-                        <use href="./imeges/symbol-defs.svg#icon-instagram"></use>
-                      </svg>
-                    </a></li>
-          <li><a class="footer-soc-link" href="">
-                      <svg class="footer-soc-icon" width="20" height="20">
-                        <use href="./imeges/symbol-defs.svg#icon-twitter"></use>
-                      </svg>
-                    </a></li>
-          <li><a class="footer-soc-link" href="">
-                      <svg class="footer-soc-icon" width="20" height="20">
-                        <use href="./imeges/symbol-defs.svg#icon-facebook"></use>
-                      </svg>
-                    </a></li>
-          <li><a class="footer-soc-link" href="">
-                      <svg class="footer-soc-icon" width="20" height="20">
-                        <use href="./imeges/symbol-defs.svg#icon-linkedin"></use>
-                      </svg>
-                    </a></li>
-        </ul>
+        </div>
       </div>
     </footer>
   </body>
