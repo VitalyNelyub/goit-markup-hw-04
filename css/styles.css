@@ -95,6 +95,10 @@ button {
   line-height: 1.19;
 }
 
+header {
+  border-bottom: 1px solid #ececec;
+}
+
 .logo-style {
   color: var(--title-text-color);
 }
@@ -113,7 +117,6 @@ button {
 .head-nav {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
 }
 
 .navigation .nav-link {
@@ -178,6 +181,7 @@ button {
   background-position: center;
   background-size: cover;
   max-width: 1600px;
+  height: 600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -420,17 +424,17 @@ button {
   width: 170px;
   height: 92px;
   display: flex;
-  background-position: center;
   align-items: center;
   justify-content: center;
   color: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  padding: 16px 32px;
 }
 
 .partner-icon {
   fill: currentColor;
+  width: 106px;
+  height: 60px;
 }
 
 .partner-logo:hover,
@@ -591,11 +595,10 @@ button {
   display: block;
 }
 
- .gallery-link:hover {
-  box-shadow: 
-  0px 1px 1px rgba(0, 0, 0, 0.12), 
-  0px 4px 4px rgba(0, 0, 0, 0.06),
-  1px 4px 6px rgba(0, 0, 0, 0.16);
+.gallery-link:hover,
+.gallery-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .project-text {
