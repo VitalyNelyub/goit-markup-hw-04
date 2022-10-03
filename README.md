@@ -1,10 +1,8 @@
-# goit-markup-hw-01
-<li>
-<a href="https://hellenglish.goit.global">https://hellenglish.goit.global/</a>
-</li>
-
+<!-- Переход на внешнюю страницу -->
 rel="noreferrer noopener"
 
+
+<!-- Скрытие заголовка -->
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -17,7 +15,7 @@ rel="noreferrer noopener"
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
+<!-- Сброс стилей -->
 p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
@@ -37,10 +35,28 @@ html {
   box-sizing: inherit;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
-<!-- <li class="item">
-            <a class="contact-link" href="mailto:info@devstudio.com"
-              ><svg class="icon">
-                <use href="./imeges/symbol-defs.svg#icon-mail" width="16" height="12"></use></svg
-              >info@devstudio.com</a>
-          </li> -->
+button {
+  display: block;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+
+<!-- Отмена подчеркивания -->
+.list {
+  list-style: none;
+}
+
+<!-- Позиционирование по центру -->
+
+ position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
